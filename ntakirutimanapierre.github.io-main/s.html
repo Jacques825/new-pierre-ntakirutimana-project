@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre's Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+.header {
+    background-color: #003366;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav-menu a {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Main Layout */
+.main-container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.role {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+/* Content */
+.content {
+    width: 75%;
+    margin-left: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #003366;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.project h3 {
+    color: #003366;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Pierre</h1>
+            <nav class="nav-menu">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="#blogs">Blogs</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic">
+            <h2>Pierre</h2>
+            <p class="role">Data Scientist & Business Analyst</p>
+            <p>Kigali, Rwanda</p>
+            <ul class="links">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">View Resume</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="content">
+            <h2>Welcome to my Homepage:</h2>
+            <h3>ACTIVELY LOOKING FOR A MACHINE LEARNING ROLE</h3>
+            <p>
+                Having grown up in a family of farmers, I developed an interest in observing the earth and predicting environmental conditions to the most accurate level possible.
+                Being in the field intersecting mathematics and computer engineering, and having spent time in business sectors, I will bring this set of skills to make an impactful move within your organization.
+            </p>
+            <p>
+                I am actively looking for a Machine Learning Role, most preferable PhD position in developing solutions to make satellite imagery more accessible and usable in the industry.
+            </p>
+            <p>
+                My passion for understanding the power of data and its potential impact on business sets me apart. If you are looking for a dedicated and motivated individual who appreciates the strategic role of data, I would love to connect and discuss potential opportunities further.
+            </p>
+
+            <h2>Recent Projects</h2>
+            <div class="project">
+                <h3>Satellite Imagery Enhancement</h3>
+                <img src="https://via.placeholder.com/300x200" alt="Project Image">
+                <p>
+                    Project 1: Unveiling Patterns in French Weather and Electricity Consumption. This data analysis project delves into the intricate relationship between historical daily weather data for France and its correlation with electricity consumption. Navigating through detailed steps, the analysis includes data retrieval, correlation matrix calculations, synchronization of time series, and the application of multivariate regression models.
+                </p>
+            </div>
+        </section>
+    </main>
+    <div class="video-container">
+    <video autoplay muted loop>
+        <source src="A.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+</body>
+</html>
